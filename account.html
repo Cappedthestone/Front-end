@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Movie Roboto</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="main.css">
+            <link rel="stylesheet" href="logIn.css">
+            <script src="validation.js"></script>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.11/css/font-awesome.min.css">
+</head>
+<body>
+  
+    <br>
+    <div class="wrapper">
+
+    <form id="logIn-box" onsubmit="return validation()">
+
+            <div id="login-messge">USER LOGIN</div><br>
+             <div id="error-message"></div>
+             <!--<i class="fal fa-user"></i>-->
+            <label for="email">Email</label>
+            <input type="text" id="email" for="email"  required>
+            <br><br>
+
+            <label for="pass">Password</label>
+            <input type="text" id="pass" for="pass" >
+
+            <button type="submit" id="btn">LOGIN</button value ="submit" required>
+            <div id="sig">Don't Have an Account? <a href="newAccount.html">SignUp</a></div>
+    </form>
+    </div>
+    <script>
+                var Email = document.getElementById("email");
+                var password = document.getElementById("pass");
+                var errorMessage = document.getElementById("error-message");
+                function validation(){
+                if(Email.contains!="@" || Email.value < 6){
+                        errorMessage.innerHTML ="<p>The following error(s) occured:<br> sorry your email is incorrect. Please try again</p>";
+                        return false;
+                }
+                else {
+                        alert("LogIn successfull");
+                        return true;
+                }
+}
+
+
+    </script>
+</body>
+</html>

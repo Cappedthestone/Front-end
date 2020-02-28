@@ -1,0 +1,183 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+#logIn-box{
+   width: 280px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-weight: 60;
+
+}
+#logIn-box{
+    border: 8px, solid chartreuse;
+    background-color: black;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+#login-messge{
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    color: black;
+    background-color: gold;
+    margin-right: -140px;
+    margin-left: -140px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    padding-left: 170px;
+    font-size: 28px;;
+
+}
+#logIn-box input{
+    border: none;
+    outline: none;
+    background: white;
+    padding-top: 10px;
+}
+
+#btn{
+    width: 140px;  
+    background-color: sienna;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#email{
+    margin-left: 30px;
+}
+#sig{
+    padding-top: 40px;
+    color: gold;
+    margin-top: 20px;
+}
+#sig a{
+    padding-left: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+/*
+ ------------------------------------------------------------------
+The line above divides the CSS of Account.html and newAccount.html page. 
+*/
+
+
+
+#logIn-box-cust{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+ 
+ }
+ #logIn-box-cust{
+     border: 8px, solid chartreuse;
+     background-color: black;
+     padding-left: 180px;
+     padding-right: 180px;
+     padding-bottom: 50px;
+     padding-top: 40px;
+ }
+
+ #cust-messge{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: black;
+    background-color: gold;
+    margin-right: -180px;
+    margin-left: -180px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    padding-left: 180px;
+    font-size: 22px;;
+
+}
+
+ #logIn-box-cust input{
+     border: none;
+     outline: none;
+     background: white;
+     padding-top: 10px;
+ }
+ 
+ #custbtn{
+     width: 170px;  
+     background-color: sienna;
+     color: white;
+    padding-bottom: 10px;
+    padding-top: 10;
+     font-size: 20px;
+     margin-top: 50px;
+     margin-left: 110px;
+ }
+
+ #firstName{
+    margin-left: 41px;
+    margin-bottom: 10px;
+}
+#lastName{
+    margin-left: 42px;
+    margin-bottom: 10px;
+}
+ 
+ #useremail{
+     margin-left: 72px;
+     margin-bottom: 10px;
+ }
+
+#userPass{
+    margin-left: 48px;
+    margin-bottom: 10px;
+}
+#confirmPass{
+    margin-left: 0px;
+}
+
+ .textBox{
+     font-size: 13px;
+ }
+
+ #error-message{
+    color: red;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    font-size: 14px;
+
+}
+#email-error{
+    color: red;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 11px;
+}
+
+#cpass-error{
+    color: red;
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 11px;
+}
+
+#pass-error{
+    color: red;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 11px;
+}
+
